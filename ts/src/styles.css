@@ -1,3 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Jost:wght@400;700&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+main {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  grid-template-rows: 68px 1633px;
+  grid-template-areas:
+    "sidemenu header"
+    "sidemenu content";
+}
+.mini-head {
+  height: 68px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  color: #fff;
+  background-image: linear-gradient(to bottom, #ffb354, #ee7a3a);
+  font-size: 30px;
+  line-height: 35.16px;
+}
+.sidemenu-rows {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 68px;
+  background-color: rgb(255, 242, 218);
+  grid-area: header;
+}
+.header-text {
+  color: #725c5c;
+}
+.inner-header {
+  display: flex;
+  flex-direction: row;
+}
+.user-avatar {
+  width: 48px;
+  height: 30px;
+  border-radius: 50%;
+}
