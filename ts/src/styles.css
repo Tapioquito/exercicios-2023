@@ -216,7 +216,8 @@ main {
   width: 1058px;
   height: 45px;
 }
-.abstract-title {
+.abstract-title,
+.discussions-title {
   margin-left: 15px;
 }
 .abstract-content-box {
@@ -250,4 +251,30 @@ main {
   line-height: 25px;
   width: 1058px;
   height: 45px;
+}
+.chat-box {
+  width: 1028px;
+  height: 148px;
+}
+
+.chat-title {
+  font-family: Quicksand;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ed7839;
+}
+.chat-username {
+  font-family: Quicksand;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #5c5c5c;
+}
+.chat-content {
+  font-family: Quicksand;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5c5c5c;
 }
